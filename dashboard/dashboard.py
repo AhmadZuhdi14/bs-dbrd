@@ -18,7 +18,7 @@ def main():
     st.title("Ahmad Zuhdi: Bike Sharing Data Dashboard")
 
     # Load data
-    all_df = pd.read_csv("main_data.csv")
+    all_df = pd.read_csv("bs-dbrd/dashboard/main_data.csv")
 
     # Sidebar filters
     st.sidebar.header("Filter Data")
