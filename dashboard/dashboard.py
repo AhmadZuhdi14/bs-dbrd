@@ -46,5 +46,5 @@ def main():
     hourly_distribution = get_hourly_distribution(filtered_data)
     st.line_chart(hourly_distribution)
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+   # main()
